@@ -1,0 +1,88 @@
+.section1 {
+  margin-top: 12rem;
+  margin-left: 3rem;
+}
+
+#section1-h4 {
+  color: white;
+  font-size: 30px;
+}
+
+#section1-p {
+  font-family: Source Sans Pro;
+  color: white;
+  font-size: 18px;
+  margin-top: 2rem;
+}
+
+.section1-img {
+  max-width: 1250px;
+  max-height: 1043px;
+}
+
+.section1-btn-1 {
+  background-color: #a60000;
+  color: white;
+  border: #a60000;
+  border-radius: 0;
+  font-size: 16px;
+  width: 20rem;
+  height: 70px;
+  margin-top: 4rem;
+}
+.section1-btn-2 {
+  background-color: transparent;
+  border: 2px solid #a60000;
+  color: white;
+  border-radius: 0;
+  font-size: 16px;
+  width: 20rem;
+  height: 70px;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .section1 {
+    margin: 6rem 0 0rem 3rem;
+  }
+  #section1-h4 {
+    font-size: 30px;
+  }
+  #section1-p {
+    font-size: 16px;
+  }
+  .section1-btn-1 {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 5rem 0rem 5rem;
+  }
+  #section1-h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #section1-p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .section1-btn-1 {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 2rem 0rem 2rem;
+  }
+}

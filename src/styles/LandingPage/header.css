@@ -1,0 +1,24 @@
+a {
+  color: white !important;
+}
+
+.logo {
+  height: 40px;
+  width: 225px;
+  border-radius: 0px;
+  margin-left: 3rem;
+}
+
+.header-bg {
+  background-color: #a60000;
+}
+
+.header-links {
+  font-family: Courier Prime;
+  color: white !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  margin-right: 3rem;
+}
